@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebFilter(filterName = "Filter 10",urlPatterns = "/*")
+//@WebFilter(filterName = "Filter 10",urlPatterns = "/*")
 public class Filter10 implements Filter {
     public void destroy() {
     }
